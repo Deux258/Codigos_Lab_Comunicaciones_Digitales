@@ -92,11 +92,13 @@ Dentro de la carpeta `MATLAB/` se encuentran dos scripts:
 Este script calcula y grafica la **transformada de Fourier** de la envolvente compleja \(g(t)\) para un bit “1” y para un bit “0”. En banda base, cada envolvente es un pulso rectangular modulando un exponencial a \(\pm \Delta f\).
 
 #### Parámetros importantes
+```bash
 - `Rb = 1e3;`      % Tasa de bits = 1 kbit/s  
 - `T  = 1 / Rb;`   % Duración de bit = 1 ms  
 - `DeltaF = 2e3;`  % Desviación de frecuencia = 2 kHz  
 - `f = linspace(-10e3, 10e3, 10001);`  
     % Eje de frecuencias de –10 kHz a +10 kHz
+```
 
 #### Salida esperada
 - Una figura donde se ve claramente:
@@ -110,6 +112,7 @@ Primeros ceros en ±1 kHz y ±3 kHz.
 Este script genera una señal FSK real (dominio del tiempo) para una secuencia de 5 bits, y luego calcula su FFT para mostrar el espectro en el dominio de la frecuencia.
 
 ### Parámetros importantes
+```bash
 - `Rb = 1e3;`    % Tasa de bits = 1 kbit/s
 - `T = 1 / Rb;`   % Duración de bit = 1 ms
 - `DeltaF = 2e3;`  % Desviación de frecuencia = 2 kHz
@@ -117,6 +120,7 @@ Este script genera una señal FSK real (dominio del tiempo) para una secuencia d
 - `fs = 1e6;`    % Frecuencia de muestreo = 1 MHz
 - `N_bits = 5;`   % Número de bits a simular
 - `bits = [1 0 1 1 0];` % Secuencia de bits ejemplo
+```
 
 ### Salidas esperadas
 
@@ -131,6 +135,7 @@ Este script genera una señal FSK real (dominio del tiempo) para una secuencia d
 
 ### Parámetros importantes:
 
+```bash
 - `samp_rate = 1e6`     % Frecuencia de muestreo: 1 MHz
 - `Rb        = 1e3`     % Tasa de bits: 1 kHz
 - `DeltaF    = 2e3`     % Desviación de frecuencia: 2 kHz
@@ -139,6 +144,7 @@ Este script genera una señal FSK real (dominio del tiempo) para una secuencia d
 - `f0        = fc - DeltaF`   % →  98 kHz
 - `T         = 1.0 / Rb`      % → 1 ms
 - `Ampl      = 1.0`           % Amplitud de portadoras
+```
 
 ### Salida esperada
 
