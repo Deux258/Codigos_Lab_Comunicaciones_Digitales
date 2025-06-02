@@ -39,14 +39,13 @@ En esta práctica se busca:
 ---
 
 ## 2. Estructura del Repositorio
-/
+.
 ├── README.md
 ├── MATLAB/
 │ ├── FSK_envolvente.m
 │ └── FSK_simulacion.m
 └── GNU_Radio/
 └── FSK_Transmisor.grc
-/
 
 
 - **`MATLAB/`**  
