@@ -39,6 +39,7 @@ En esta práctica se busca:
 ---
 
 ## 2. Estructura del Repositorio
+```bash
 .
 ├── README.md
 ├── MATLAB/
@@ -46,7 +47,7 @@ En esta práctica se busca:
 │ └── FSK_simulacion.m
 └── GNU_Radio/
 └── FSK_Transmisor.grc
-
+```
 
 - **`MATLAB/`**  
   Contiene los scripts de MATLAB que generan:
