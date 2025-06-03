@@ -67,7 +67,7 @@ blocks:
     bus_structure: null
     coordinate: [408, 80.0]
     rotation: 0
-    state: disabled
+    state: enabled
 - name: analog_sig_source_x_0_0
   id: analog_sig_source_x
   parameters:
@@ -98,7 +98,7 @@ blocks:
     alias: ''
     amp: '1'
     comment: ''
-    freq: '1000'
+    freq: '10000'
     maxoutbuf: '0'
     minoutbuf: '0'
     offset: '0'
@@ -113,7 +113,7 @@ blocks:
     bus_structure: null
     coordinate: [408, 224.0]
     rotation: 0
-    state: disabled
+    state: enabled
 - name: blocks_multiply_xx_0
   id: blocks_multiply_xx
   parameters:
@@ -131,7 +131,7 @@ blocks:
     bus_structure: null
     coordinate: [672, 152.0]
     rotation: 0
-    state: disabled
+    state: enabled
 - name: blocks_throttle2_0
   id: blocks_throttle2
   parameters:
@@ -152,7 +152,7 @@ blocks:
     bus_structure: null
     coordinate: [864, 152.0]
     rotation: 0
-    state: disabled
+    state: enabled
 - name: blocks_vco_f_0
   id: blocks_vco_f
   parameters:
@@ -163,7 +163,7 @@ blocks:
     maxoutbuf: '0'
     minoutbuf: '0'
     samp_rate: '32000'
-    sensitivity: '31416 '
+    sensitivity: '12566 '
   states:
     bus_sink: false
     bus_source: false
@@ -251,7 +251,7 @@ blocks:
     bus_structure: null
     coordinate: [1040, 56.0]
     rotation: 0
-    state: disabled
+    state: enabled
 - name: qtgui_freq_sink_x_0_0
   id: qtgui_freq_sink_x
   parameters:
@@ -283,8 +283,8 @@ blocks:
     color9: '"dark green"'
     comment: ''
     ctrlpanel: 'False'
-    fc: '0'
-    fftsize: '1024'
+    fc: '10000'
+    fftsize: '2048'
     freqhalf: 'True'
     grid: 'False'
     gui_hint: ''
@@ -429,7 +429,7 @@ blocks:
     bus_structure: null
     coordinate: [1016, 240.0]
     rotation: 0
-    state: disabled
+    state: enabled
 - name: qtgui_time_sink_x_0_0
   id: qtgui_time_sink_x
   parameters:
@@ -485,7 +485,7 @@ blocks:
     marker9: '-1'
     name: '""'
     nconnections: '1'
-    size: '1024'
+    size: '10024'
     srate: samp_rate
     stemplot: 'False'
     style1: '1'
