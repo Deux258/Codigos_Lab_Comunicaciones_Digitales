@@ -13,6 +13,8 @@ Lab4/
 └── README.md # Este archivo
 ```
 
+PD: lab4_Presencial2 cumple el mismo objetivo pero de forma limitada, por lo que no se tomará en cuenta para el desarrollo de la actividad.
+
 ### Descripción del diagrama `lab4_Presencial.grc`
 
 El diagrama de flujo implementa un enlace digital en banda base con las siguientes etapas:
